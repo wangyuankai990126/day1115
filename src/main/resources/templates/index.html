@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../vuejs/vuejs-2.5.16.js"></script>
+    <script type="text/javascript" src="../vuejs/axios-0.18.0.js"></script>
+</head>
+<body>
+    <div id="indexdiv">
+        <center>
+        <h2>登录</h2>
+        用户名:<input v-model="manager.username"/><br>
+        密码:<input type="password" v-model="manager.password"/><br>
+        <input type="button" value="登录" @click="getLogin()">
+        </center>
+    </div>
+    <script type="text/javascript" src="../pagejs/index.js"></script>
+</body>
+</html>
